@@ -25,11 +25,11 @@ while opcion !=0:
         productos.append(producto)
     elif opcion == 2:
         print("PEDIDO:")
-        for producto in productos:
-            #if len(productos) >1:
-                print(f"Producto: {producto}")
+        for producto in productos:   
+            print(f"Producto: {producto}")
     elif opcion == 4:
-        productos.pop()
+        if len(productos) > 1: #No permite que  la lista quede vacía
+            productos.pop()
     elif opcion == 0:
         break
     else:

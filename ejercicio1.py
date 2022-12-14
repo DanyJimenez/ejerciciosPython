@@ -9,7 +9,7 @@ for i in range(10):
     if numero % 3 == 0:
         cont = cont +1
         
-print(f"La cantidad de números múltimplos de 3 es: {cont}")
+print(f"En su lista hay {cont} múltiplos de 3.")
     
 
 
